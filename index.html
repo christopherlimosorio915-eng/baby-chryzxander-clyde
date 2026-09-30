@@ -1,0 +1,703 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="A little memory book for Chryzxander, lovingly created by Dada Chris and Mama Joanna."
+    />
+
+    <title>Chryzxander | Our Little Star 🧸</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- =================================================
+         LOADING SCREEN
+    ================================================== -->
+
+    <div class="loader" id="loader">
+      <div class="loader-cloud">☁️</div>
+
+      <div class="loader-bear">🧸</div>
+
+      <h2>Preparing a little memory...</h2>
+
+      <div class="loader-dots">
+        <span>•</span>
+        <span>•</span>
+        <span>•</span>
+      </div>
+    </div>
+
+    <!-- =================================================
+         MUSIC
+    ================================================== -->
+
+    <audio id="backgroundMusic" loop preload="auto">
+      <source src="./media/lullaby.mp3" type="audio/mpeg" />
+    </audio>
+
+    <button
+      class="music-button"
+      id="musicButton"
+      aria-label="Play music"
+      title="Play music"
+    >
+      🔇
+    </button>
+
+    <!-- =================================================
+         DECORATIONS
+    ================================================== -->
+
+    <div class="floating-decoration teddy-a">🧸</div>
+
+    <div class="floating-decoration bottle-a">🍼</div>
+
+    <div class="floating-decoration cloud-a">☁️</div>
+
+    <div class="floating-decoration heart-a">💙</div>
+
+    <!-- =================================================
+         HERO
+    ================================================== -->
+
+    <header class="hero">
+      <!-- Stars -->
+
+      <div class="hero-stars">
+        <span>✦</span>
+        <span>✧</span>
+        <span>✦</span>
+        <span>✧</span>
+        <span>✦</span>
+        <span>✧</span>
+        <span>✦</span>
+        <span>✧</span>
+      </div>
+
+      <!-- Moon -->
+
+      <div class="moon">🌙</div>
+
+      <!-- Clouds -->
+
+      <div class="hero-cloud cloud-1">☁️</div>
+
+      <div class="hero-cloud cloud-2">☁️</div>
+
+      <div class="hero-cloud cloud-3">☁️</div>
+
+      <!-- Hero Content -->
+
+      <div class="hero-content">
+        <div class="tiny-label">A LITTLE MEMORY BOOK</div>
+
+        <div class="hero-teddy" id="heroTeddy">🧸</div>
+
+        <p class="hero-intro">Once upon a little moment...</p>
+
+        <h1>Chryzxander Clyde V. Osorio</h1>
+
+        <div class="hero-heart">♡</div>
+
+        <p class="hero-date">March 20, 2026</p>
+
+        <p class="hero-description">
+          A tiny life.<br />
+          A beautiful love.<br />
+          A forever memory.
+        </p>
+
+        <button class="primary-button" id="openMemory">
+          <span> Open My Memory Book </span>
+
+          <span> 📖 </span>
+        </button>
+      </div>
+
+      <div class="scroll-indicator">
+        <span> scroll gently </span>
+
+        <b> ↓ </b>
+      </div>
+    </header>
+
+    <!-- =================================================
+         INTRO
+    ================================================== -->
+
+    <section class="section intro">
+      <div class="container reveal">
+        <div class="section-icon">🍼</div>
+
+        <div class="section-label">PAGE 01 · HELLO LITTLE ONE</div>
+
+        <h2>Welcome to your little world</h2>
+
+        <div class="ornament">✦ ♡ ✦</div>
+
+        <p class="large-text">Dear Chryzxander,</p>
+
+        <p>
+          Before we could hold you, our hearts had already made a place for you.
+        </p>
+
+        <p>
+          You became part of our story in a way that words can never completely
+          explain.
+        </p>
+
+        <p>This little website is a place where your memories can stay.</p>
+
+        <div class="baby-feet">👣</div>
+      </div>
+    </section>
+
+    <!-- =================================================
+         BABY PROFILE
+    ================================================== -->
+
+    <section class="profile-section">
+      <div class="container">
+        <div class="baby-profile reveal">
+          <div class="profile-top">
+            <span> LITTLE STAR </span>
+
+            <span> 🧸 </span>
+          </div>
+
+          <div class="profile-circle">
+            <div class="profile-bear">🧸</div>
+
+            <div class="profile-sparkle">✦</div>
+          </div>
+
+          <div class="profile-name">Chryzxander Clyde V. Osorio</div>
+
+          <div class="profile-subtitle">Our little angel</div>
+
+          <div class="profile-line"></div>
+
+          <div class="profile-details">
+            <div class="detail">
+              <span> BORN </span>
+
+              <strong> March 20 </strong>
+            </div>
+
+            <div class="detail">
+              <span> YEAR </span>
+
+              <strong> 2026 </strong>
+            </div>
+
+            <div class="detail">
+              <span> LOVED BY </span>
+
+              <strong> Dada & Mama </strong>
+            </div>
+          </div>
+
+          <div class="profile-footer">Forever in our hearts 🤍</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================
+         DATE
+    ================================================== -->
+
+    <section class="section date-section">
+      <div class="container reveal">
+        <div class="section-label">PAGE 02 · A SPECIAL DAY</div>
+
+        <h2>The day our hearts changed</h2>
+
+        <p class="section-description">
+          Some dates become memories. Some dates become part of us.
+        </p>
+
+        <div class="calendar-card">
+          <div class="calendar-month">MARCH</div>
+
+          <div class="calendar-year">2026</div>
+
+          <div class="calendar-number">20</div>
+
+          <div class="calendar-day">FRIDAY</div>
+
+          <div class="calendar-heart">🤍</div>
+        </div>
+
+        <div class="footsteps">👣 &nbsp; 👣 &nbsp; 👣</div>
+      </div>
+    </section>
+
+    <!-- =================================================
+         QUOTE
+    ================================================== -->
+
+    <section class="quote-section">
+      <div class="quote-cloud left">☁️</div>
+
+      <div class="quote-cloud right">☁️</div>
+
+      <div class="container reveal">
+        <div class="quote-teddy">🧸</div>
+
+        <div class="quote-symbol">“</div>
+
+        <blockquote>A little time can leave a lifetime of love.</blockquote>
+
+        <div class="quote-symbol bottom">”</div>
+
+        <div class="quote-heart">♡</div>
+      </div>
+    </section>
+
+    <!-- =================================================
+         VIDEOS
+    ================================================== -->
+
+    <section class="section video-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="section-icon">🎥</div>
+
+          <div class="section-label">PAGE 03 · MOVING MEMORIES</div>
+
+          <h2>Moments we can watch again</h2>
+
+          <p>Press play and revisit these precious memories.</p>
+        </div>
+
+        <!-- Video 1 -->
+
+        <article class="video-card reveal">
+          <div class="video-card-top">
+            <span> MEMORY 01 </span>
+
+            <span> 🧸 </span>
+          </div>
+
+          <h3>PT Memory</h3>
+
+          <p>One of the moments we will always remember.</p>
+
+          <div class="video-wrapper">
+            <video controls playsinline preload="metadata">
+              <source src="media/pt-video.mp4" type="video/mp4" />
+
+              Your browser does not support HTML5 video.
+            </video>
+          </div>
+        </article>
+
+        <!-- Video 2 -->
+
+        <article class="video-card reveal">
+          <div class="video-card-top">
+            <span> MEMORY 02 </span>
+
+            <span> 🤍 </span>
+          </div>
+
+          <h3>First Movement Memory</h3>
+
+          <p>A moment that became part of our forever story.</p>
+
+          <div class="video-wrapper">
+            <video controls playsinline preload="metadata">
+              <source src="media/first-steps-video.mp4" type="video/mp4" />
+
+              Your browser does not support HTML5 video.
+            </video>
+          </div>
+        </article>
+        <!-- Video 3 -->
+
+        <article class="video-card reveal">
+          <div class="video-card-top">
+            <span> MEMORY 03 </span>
+
+            <span> 🤍 </span>
+          </div>
+
+          <h3>Operating Room Memory</h3>
+
+          <p>A moment that became part of our forever story.</p>
+
+          <div class="video-wrapper">
+            <video controls playsinline preload="metadata">
+              <source src="media/operating-room-video.MP4" type="video/mp4" />
+
+              Your browser does not support HTML5 video.
+            </video>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- =================================================
+         PHOTO ALBUM
+    ================================================== -->
+
+    <section class="section album-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="section-icon">📸</div>
+
+          <div class="section-label">PAGE 04 · OUR LITTLE ALBUM</div>
+
+          <h2>Ten little memories</h2>
+
+          <p>Click any picture to open the memory album.</p>
+        </div>
+
+        <div class="photo-grid">
+          <!-- PHOTO 01 -->
+
+          <article class="photo-card reveal" data-index="0">
+            <div class="photo-number">01</div>
+
+            <div class="photo-frame">
+              <img
+                src="media/photo01.JPG"
+                alt="Chryzxander memory 1"
+                loading="lazy"
+              />
+            </div>
+
+            <h3>Little Beginning</h3>
+
+            <p>The beginning of a beautiful memory.</p>
+          </article>
+
+          <!-- PHOTO 02 -->
+
+          <article class="photo-card reveal" data-index="1">
+            <div class="photo-number">02</div>
+
+            <div class="photo-frame">
+              <img
+                src="media/photo02.JPG"
+                alt="Chryzxander memory 2"
+                loading="lazy"
+              />
+            </div>
+
+            <h3>Little Love</h3>
+
+            <p>Loved before we could even say it.</p>
+          </article>
+
+          <!-- PHOTO 03 -->
+
+          <article class="photo-card reveal" data-index="2">
+            <div class="photo-number">03</div>
+
+            <div class="photo-frame">
+              <img
+                src="media/photo03.JPG"
+                alt="Chryzxander memory 3"
+                loading="lazy"
+              />
+            </div>
+
+            <h3>Little Angel</h3>
+
+            <p>A tiny piece of heaven.</p>
+          </article>
+
+          <!-- PHOTO 04 -->
+
+          <article class="photo-card reveal" data-index="3">
+            <div class="photo-number">04</div>
+
+            <div class="photo-frame">
+              <img
+                src="media/photo04.jpg"
+                alt="Chryzxander memory 4"
+                loading="lazy"
+              />
+            </div>
+
+            <h3>Precious Moment</h3>
+
+            <p>A moment we keep close.</p>
+          </article>
+
+          <!-- PHOTO 05 -->
+
+          <article class="photo-card reveal" data-index="4">
+            <div class="photo-number">05</div>
+
+            <div class="photo-frame">
+              <img
+                src="media/photo05.JPG"
+                alt="Chryzxander memory 5"
+                loading="lazy"
+              />
+            </div>
+
+            <h3>Sweet Memory</h3>
+
+            <p>A memory filled with love.</p>
+          </article>
+
+          <!-- PHOTO 06 -->
+
+          <article class="photo-card reveal" data-index="5">
+            <div class="photo-number">06</div>
+
+            <div class="photo-frame">
+              <img
+                src="media/photo06.JPG"
+                alt="Chryzxander memory 6"
+                loading="lazy"
+              />
+            </div>
+
+            <h3>Always Loved</h3>
+
+            <p>Always close to our hearts.</p>
+          </article>
+
+          <!-- PHOTO 07 -->
+
+          <article class="photo-card reveal" data-index="6">
+            <div class="photo-number">07</div>
+
+            <div class="photo-frame">
+              <img
+                src="media/photo07.JPG"
+                alt="Chryzxander memory 7"
+                loading="lazy"
+              />
+            </div>
+
+            <h3>Little Miracle</h3>
+
+            <p>One beautiful little memory.</p>
+          </article>
+
+          <!-- PHOTO 08 -->
+
+          <article class="photo-card reveal" data-index="7">
+            <div class="photo-number">08</div>
+
+            <div class="photo-frame">
+              <img
+                src="media/photo08.jpg"
+                alt="Chryzxander memory 8"
+                loading="lazy"
+              />
+            </div>
+
+            <h3>Forever</h3>
+
+            <p>Some memories never fade.</p>
+          </article>
+
+          <!-- PHOTO 09 -->
+
+          <article class="photo-card reveal" data-index="8">
+            <div class="photo-number">09</div>
+
+            <div class="photo-frame">
+              <img
+                src="media/photo09.jpg"
+                alt="Chryzxander memory 9"
+                loading="lazy"
+              />
+            </div>
+
+            <h3>Little Heart</h3>
+
+            <p>A little love that remains.</p>
+          </article>
+
+          <!-- PHOTO 10 -->
+
+          <article class="photo-card reveal" data-index="9">
+            <div class="photo-number">10</div>
+
+            <div class="photo-frame">
+              <img
+                src="media/photo10.jpg"
+                alt="Chryzxander memory 10"
+                loading="lazy"
+              />
+            </div>
+
+            <h3>Our Baby</h3>
+
+            <p>Forever our little Chryzxander.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================
+         LETTER
+    ================================================== -->
+
+    <section class="section letter-section">
+      <div class="container">
+        <div class="letter-paper reveal">
+          <div class="letter-teddy">🧸</div>
+
+          <div class="section-label">PAGE 05 · A LETTER FROM HOME</div>
+
+          <h2>Dear Chryzxander,</h2>
+
+          <div class="letter-ornament">✦ ♡ ✦</div>
+
+          <div class="letter-text">
+            <p>You were our little dream.</p>
+
+            <p>
+              Before we could hold you, you were already held inside our hearts.
+            </p>
+
+            <p>
+              Before we could make memories with you, we were already imagining
+              all the memories we wanted to make.
+            </p>
+
+            <p>Our time with you was precious beyond words.</p>
+
+            <p>Even though time moves forward, love does not have to leave.</p>
+
+            <p>Your name will always have a place in our family.</p>
+
+            <p>Your memory will always have a place in our home.</p>
+
+            <p class="emphasis">
+              And you will always have a place in our hearts.
+            </p>
+          </div>
+
+          <div class="letter-signature">
+            With all our love,
+
+            <strong>
+              Dada Chris
+              <br />
+              &
+              <br />
+              Mama Joanna
+            </strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================
+         FINAL NIGHT
+    ================================================== -->
+
+    <section class="night-section">
+      <div class="night-stars">
+        <span>✦</span>
+        <span>✧</span>
+        <span>✦</span>
+        <span>✧</span>
+        <span>✦</span>
+        <span>✧</span>
+        <span>✦</span>
+      </div>
+
+      <div class="night-cloud cloud-night-1">☁️</div>
+
+      <div class="night-cloud cloud-night-2">☁️</div>
+
+      <div class="night-moon">🌙</div>
+
+      <div class="container final-content reveal">
+        p
+        <div class="sleeping-teddy">🧸</div>
+
+        <div class="section-label">PAGE 06 · GOODNIGHT LITTLE STAR</div>
+
+        <h2>
+          Goodnight,
+          <span>Chryzxander</span>
+        </h2>
+
+        <p>Rest peacefully, little one.</p>
+
+        <div class="final-date">March 20, 2026</div>
+
+        <button class="final-button" id="finalButton">
+          Open One Last Message 💙
+        </button>
+
+        <div class="final-message" id="finalMessage">
+          <div class="message-teddy">🧸</div>
+
+          <h3>You will always be our baby.</h3>
+
+          <p>
+            No matter how much time passes, no matter how many seasons come and
+            go...
+          </p>
+
+          <p>Your memory will always live quietly inside our hearts.</p>
+
+          <div class="message-hearts">🤍 ✦ 💙</div>
+
+          <strong>
+            Forever loved.<br />
+            Forever remembered.<br />
+            Forever our Chryzxander.
+          </strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================
+         FOOTER
+    ================================================== -->
+
+    <footer>
+      <div class="footer-teddy">🧸</div>
+
+      <p>A little memory book, made with a lifetime of love.</p>
+
+      <strong> Dada Chris & Mama Joanna </strong>
+
+      <span> For Chryzxander 🤍 </span>
+    </footer>
+
+    <!-- =================================================
+         BACK TO TOP
+    ================================================== -->
+
+    <button class="top-button" id="topButton" aria-label="Back to top">
+      ↑
+    </button>
+
+    <!-- =================================================
+         JAVASCRIPT
+    ================================================== -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
